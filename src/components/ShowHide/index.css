@@ -2,6 +2,10 @@
 .container {
   background-image: linear-gradient(#fa7257, #fc63a7);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .heading {
@@ -15,5 +19,25 @@
   border: 10px solid;
 }
 
-.button-container {
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button {
+  margin: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px;
+}
+.names-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.paragraph {
+  background-color: #fddddb;
+  margin: 50px;
+  margin-top: 10px;
+  padding: 20px;
 }

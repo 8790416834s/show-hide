@@ -1,4 +1,4 @@
-import ShowHide from './components/ShowHide/index'
+import ShowHide from './components/ShowHide'
 
 import './App.css'
 
