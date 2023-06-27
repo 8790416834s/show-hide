@@ -8,11 +8,15 @@ class ShowHide extends Component {
   }
 
   onFirst = () => {
-    this.setState({first: !this.first})
+    this.setState(prevState => ({
+      first: !prevState.first,
+    }))
   }
 
   onSecond = () => {
-    this.setState({second: !this.second})
+    this.setState(prevState => ({
+      second: !prevState.second,
+    }))
   }
 
   render() {
